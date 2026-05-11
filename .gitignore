@@ -54,6 +54,9 @@ lightning_logs/
 outputs/*
 !outputs/README.md
 
+analysis/outputs/*
+!analysis/outputs/README.md
+
 # =========================
 # Dataset files
 # =========================
