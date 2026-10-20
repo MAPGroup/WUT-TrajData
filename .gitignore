@@ -117,3 +117,7 @@ cache/
 local_config.yaml
 local_config.yml
 config_local.py
+
+# Allow this dataset only
+!/data/dataset/
+!/data/dataset/**
