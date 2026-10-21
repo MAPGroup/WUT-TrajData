@@ -47,7 +47,8 @@ The benchmark includes multiple categories of trajectory prediction models:
 ```text
 WUT-TrajData/
 ├── data/                  # Dataset description and sample data
-│   ├── dataset/           # raw dataset
+│   ├── dataset/           # Raw dataset
+│   ├── samples/           # For details, refer to Readme
 ├── preprocess/            # AIS cleaning, segmentation, resampling
 ├── benchmark/             # Benchmark models
 │   ├── simple_baselines/  # Physics-based and classical ML baselines
