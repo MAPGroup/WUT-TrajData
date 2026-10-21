@@ -28,8 +28,8 @@ The dataset currently contains two representative maritime regions:
 
 | Region | Scenario |
 |---|---|
-| CSJ | Open-sea corridor |
-| ZS | Port and anchorage area |
+| Chengshan Jiao Promontory (CJP)  | Open-sea corridor |
+| Zhoushan Archipelago (ZSA) | Port and anchorage area |
 
 The benchmark includes multiple categories of trajectory prediction models:
 
@@ -47,6 +47,7 @@ The benchmark includes multiple categories of trajectory prediction models:
 ```text
 WUT-TrajData/
 ├── data/                  # Dataset description and sample data
+│   ├── dataset/           # raw dataset
 ├── preprocess/            # AIS cleaning, segmentation, resampling
 ├── benchmark/             # Benchmark models
 │   ├── simple_baselines/  # Physics-based and classical ML baselines
