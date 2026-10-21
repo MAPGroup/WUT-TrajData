@@ -124,35 +124,6 @@ WUT-TrajData-specific modifications, scripts, and data conversion tools are prov
 
 ---
 
-# Data
-
-The full AIS dataset is not directly included in this repository due to data size.
-
-Please refer to:
-
-```text
-data/README.md
-```
-
-for:
-
-- dataset format
-- sample data
-- access instructions
-
-Expected local data structure:
-
-```text
-data/
-├── raw/
-├── processed/
-└── samples/
-```
-
-The `raw/` and `processed/` folders are ignored by Git.
-
----
-
 # Lightweight Entry Point
 
 This repository provides a lightweight entry point:
